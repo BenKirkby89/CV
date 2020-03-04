@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Contact Details for Ben Kirkby.">
+    <title>Ben Kirkby Contact details</title>
+</head>
+<!--The Head and boilerplate above is needed for all pages of the website to ensure they are read and displayed correctly-->
+<body>
+    <h3>Contact Details</h3>
+    <p>For more information, please get in touch!</p>
+    <br>
+    <table>
+        <tr>
+            <td><img src="BenKirkbyStampLogo.png" height="100"></td>
+            <td>
+                <ul>
+                    <li>Email: <a href="mailto:ben@benkirkby.co.uk">ben@benkirkby.co.uk</a></li>
+                    <!--The HREF can also link to other applications, so in the above it will open the users default email client to send an email. The same can be applied to phone numbers-->
+                    <li>UK Mobile: +44 7577009193</li>
+                    <li>China Mobile: +86 13167232350</li>
+                    <li>Wechat id: ben_kirkby</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table cellspacing="10">
+        <form action="mailto:ben@benkirkby.co.uk" method="post" enctype="text/plain">
+            <tr>
+                <td><label>Name:</label></td>
+                <td><input type="text" name="yourName"></td>
+            </tr>
+            <tr>
+                <td><label>Email:</label></td>
+                <td><input type="email" name="yourEmail"></td>
+            </tr>
+            <tr>
+                <td><label>Message:</label></td>
+                <td><textarea name="yourMessage" rows="10" columns="120"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit"></td>
+            </tr>
+        </form>
+    </table>
+        <!--Forms, whilst only basic in HTML, allow you to input data to a website. Using CSS and Javascript this will gain more function. The above example allows the viewer to insert their email address, name and a message, which when submitted will open their email client to send the message-->
+</body>
+</html>
